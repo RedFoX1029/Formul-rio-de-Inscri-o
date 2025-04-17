@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header, footer {
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+main {
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select, textarea {
+    width: 98%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.radio-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
